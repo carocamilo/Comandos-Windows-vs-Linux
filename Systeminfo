@@ -1,0 +1,68 @@
+# Comando Systeminfo
+El comando siguiente te proporciona información de la configuración de tu ordenador.
+En esta lista verás datos tanto del sistema operativo como del hardware, como puede ser 
+la fecha de instalación original de Windows, la hora del último arranque, la versión de
+su BIOS, la memoria total, la memoria disponible, las revisiones instaladas, las
+configuraciones de la tarjeta de red y más.
+# Nombre de host:
+PC-CARO
+# Nombre del sistema operativo:
+Microsoft Windows 11 Home Single Language
+# Versión del sistema operativo:
+10.0.22621 N/D Compilación 22621
+# Fabricante del sistema operativo:
+Microsoft Corporation
+# Procesador(es):
+1 Procesadores instalados...  [01]: AMD64 Family 23 Model 104 Stepping 1 AuthenticAMD ~1686 Mhz
+# ¿Como funciona el procesador de AMD?
+AMD Ryzen es una línea de procesadores fabricados por Advanced Micro Devices (AMD).
+Estos procesadores están diseñados para ofrecer un rendimiento potente y eficiente en
+una amplia gama de aplicaciones, desde tareas cotidianas hasta cargas de trabajo exigentes,
+como juegos y creación de contenido.
+# Valor de Frecuencia
+1686 Mhz
+# ¿Que significa Mhz?
+MHz es la abreviatura de megahercios y significa un millón de ciclos por segundo,
+o un millón de hercios (10 6 Hz). Esta unidad de medida de frecuencia procede del Sistema Internacional
+de Unidades, y en informática se emplea para denotar la velocidad en que los datos se mueven dentro y entre
+componentes.
+#¿Qué es una memoria física?
+La memoria física (también conocida como RAM - memoria de acceso aleatorio) es una hardware Componente
+que proporciona almacenamiento temporal de alta velocidad para procesos, programas y datos en ejecución activa.
+# ¿Qué es memoria virtual y para qué sirve?
+La memoria virtual (también conocida como archivo de paginación) es básicamente un bloque de espacio en su
+disco duro o unidad de estado sólido asignado por el SO para que actúe como RAM cuando su RAM física no tenga suficiente
+capacidad para programas en ejecución.
+# ¿Qué son las tarjetas de red?
+Son unas tarjetas que suelen ser de tamaño reducido que se incorporan en el interior de los ordenadores para así lograr que nuestro equipo logre conectarse a Internet.
+- Al ser un Hardware silencioso y poco notorio suele ser desapercibido cuando se utiliza un ordenador, pero ten mucho cuidado estos pequeños 
+dispositivos son una de las partes claves para el adecuado funcionamiento de nuestro ordenador.
+# ¿Cómo funcionan las tarjetas de red?
+Las tarjetas de red se encargan de preparar, transferir y controlar la información o datos que envía a los otros equipos que están conectados en una misma red,
+no se trata de solo ordenadores, también equipos como impresoras y discos duros externos pueden establecer una conexión.
+Básicamente las tarjetas de red se encargan de ser el intermediario entre el conector y nuestro equipo con un dispositivo que permite que contemos
+con Internet. Esto se puede llevar a cabo con conexiones a través de cable o inalámbricamente.
+# Tarjetas de red
+3 Tarjetas de interfaz de red instaladas.
+[01]: VirtualBox Host-Only Ethernet Adapter
+Nombre de conexión: VirtualBox Host-Only Network
+DHCP habilitado:    No
+Direcciones IP
+[01]: 192.168.56.1
+[02]: fe80::32bc:21e4:2733:1263
+[02]: Realtek RTL8821CE 802.11ac PCIe Adapter
+Nombre de conexión: Wi-Fi
+DHCP habilitado:    Sí
+Servidor DHCP:      192.168.137.1
+Direcciones IP
+[01]: 192.168.137.248
+[02]: fe80::5e1c:cfa7:7af0:8b9b
+[03]: Bluetooth Device (Personal Area Network)
+Nombre de conexión: Conexión de red Bluetooth
+Estado:             Medios desconectados
+# ------------------------------------------------------------------
+# COMANDOS E INFORMACIÓN DE LINUX
+# Touch
+Nos sirve para crear un nuevo archivo
+→ help nos sirve para conocer la información de ese comando y lo que hace. Por ejemplo:
+touch --c (do not create any files) //no crea ningún archivo
